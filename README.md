@@ -2,10 +2,12 @@
 
 Allow to setup a bash to display current git branch of working repository.
 
-So first,lets put these two files () to your home dir:
-
+So first,lets put these two files to your home dir:
+```
 .git-prompt.sh 
-.git-completion.bash  
+.git-completion.bash 
+```
+Set permissions 
 ```
 $sudo chmod +x .git-prompt.sh 
 $sudo chmod +x .git-completion.bash
